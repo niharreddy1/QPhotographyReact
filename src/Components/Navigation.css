@@ -1,0 +1,38 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
+  font-family: "Fenix", serif;
+}
+
+#home_button {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#landscapes_button {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#portraits_button {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#wildlife_button {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#logo {
+  width: 25%;
+  height: 25%;
+}
+
+#scroll_animation {
+  position: absolute;
+  top: 90%;
+  left: 48%;
+}

@@ -1,0 +1,7 @@
+1. Host the website with azure static web apps 
+2. Component for the nav bar 
+3. Main section component with props background image. 
+4. Whitespace 100vh
+5. Footer component 
+6. Once website is complete change the files on bluehost to this instead. 
+7. Delete to do file. 

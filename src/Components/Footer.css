@@ -1,0 +1,10 @@
+footer {
+  min-height: 15vh;
+  background: black;
+  padding-right: 10%;
+  padding-left: 10%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  font-family: "Fenix", serif;
+}
