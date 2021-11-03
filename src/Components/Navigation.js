@@ -1,20 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navigation.css";
+import navLogo from "../Images/websiteLogos/q_logo_no_bg_wht.png";
 
 export default function Navigation() {
   return (
     <div>
       <nav>
-        <a href="index.html">
-          <button id="home_button" class="hover:underline">
+        <Link to="/">
+          <button id="home_button" className="hover:underline">
             Home
           </button>
-        </a>
-        <a href="landscapes.html">
-          <button id="landscapes_button" class="hover:underline">
+        </Link>
+
+        <Link to="/landscapes">
+          <button id="landscapes_button" className="hover:underline">
             Landscapes
           </button>
-        </a>
+        </Link>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="130"
@@ -32,7 +35,7 @@ export default function Navigation() {
           />
         </svg>
 
-        {/* <img id="logo" src={navLogo} alt="white q photography logo" /> */}
+        <img id="logo" src={navLogo} alt="white q photography logo" />
 
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -50,15 +53,18 @@ export default function Navigation() {
             stroke-width="2"
           />
         </svg>
-        <a href="portraits.html">
+
+        <Link to="/portraits">
           <button id="portraits_button" class="hover:underline">
             Portraits
           </button>
-        </a>
+        </Link>
 
-        <button id="wildlife_button" class="hover:underline">
-          Wildlife
-        </button>
+        <Link to="/wildlife">
+          <button id="wildlife_button" class="hover:underline">
+            Wildlife
+          </button>
+        </Link>
 
         <svg
           id="scroll_animation"

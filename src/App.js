@@ -1,4 +1,3 @@
-import "./App.css";
 import { Route, Switch } from "react-router-dom";
 import WildlifePage from "./pages/WildlifePage";
 import HomePage from "./pages/HomePage";

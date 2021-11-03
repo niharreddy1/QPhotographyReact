@@ -1,16 +1,13 @@
 import React from "react";
-import "../pages/WildLifePage.css";
+import "./Pages.css";
 import Footer from "../Components/Footer";
-import Navigation from "../Components/Navigation";
+import SiteSectionHeader from "../Components/SiteSectionHeader";
+import WildlifeBackgroundImg from "../Images/ElephantBG.jpg";
 
 const WildlifePage = () => {
   return (
     <div>
-      <header>
-        <section className="wildlife">
-          <Navigation />
-        </section>
-      </header>
+      <SiteSectionHeader coverImg={WildlifeBackgroundImg} />
       <Footer />
     </div>
   );

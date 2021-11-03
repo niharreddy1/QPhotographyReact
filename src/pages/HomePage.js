@@ -5,6 +5,7 @@ import logoNoBgBlk from "../Images/websiteLogos/q_logo_no_bg_blk.jpg";
 import fbIcon from "../Images/Icons/f_logo_RGB-Blue_1024.png";
 import instaIcon from "../Images/Icons/Instagram_Glyph_Gradient_RGB.png";
 import linkedInIcon from "../Images/Icons/LI-In-Bug.png";
+import "./Pages.css";
 
 const HomePage = () => {
   return (
