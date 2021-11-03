@@ -7,9 +7,9 @@ import WildlifePage from "./pages/WildlifePage";
 function App() {
   return (
     <div>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="//QPhotographyReact" component={HomePage} />
           <Route path="/wildlife" component={WildlifePage} />
           <Route path="/landscapes" component={LandscapesPage} />
           <Route path="/portraits" component={PortraitsPage} />
