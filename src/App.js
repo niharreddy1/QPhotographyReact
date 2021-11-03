@@ -1,26 +1,20 @@
-import { Route, Switch } from "react-router-dom";
-import WildlifePage from "./pages/WildlifePage";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import LandscapesPage from "./pages/LandscapesPage";
 import PortraitsPage from "./pages/PortraitsPage";
+import WildlifePage from "./pages/WildlifePage";
 
 function App() {
   return (
     <div>
-      <Switch>
-        <Route path="/" exact>
-          <HomePage />
-        </Route>
-        <Route path="/wildlife">
-          <WildlifePage />
-        </Route>
-        <Route path="/landscapes">
-          <LandscapesPage />
-        </Route>
-        <Route path="/portraits">
-          <PortraitsPage />
-        </Route>
-      </Switch>
+      <Router basename={process.env.PUBLIC_URL}>
+        <Switch>
+          <Route path="/" exact component={HomePage} />
+          <Route path="/wildlife" component={WildlifePage} />
+          <Route path="/landscapes" component={LandscapesPage} />
+          <Route path="/portraits" component={PortraitsPage} />
+        </Switch>
+      </Router>
     </div>
   );
 }
