@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import qFallPhoto from "../Images/q_fall_crop.jpeg";
 import logoNoBgBlk from "../Images/websiteLogos/q_logo_no_bg_blk.jpg";
 import fbIcon from "../Images/Icons/f_logo_RGB-Blue_1024.png";
 import instaIcon from "../Images/Icons/Instagram_Glyph_Gradient_RGB.png";
 import linkedInIcon from "../Images/Icons/LI-In-Bug.png";
 import "./Pages.css";
+import SiteImages from "../Images/SiteImages";
 
 const HomePage = () => {
   return (
@@ -14,7 +14,7 @@ const HomePage = () => {
       <div className="w-1/2 h-screen">
         <img
           className="object-cover h-screen"
-          src={qFallPhoto}
+          src={SiteImages.qInFall}
           alt="Qadir in the fall."
         />
       </div>

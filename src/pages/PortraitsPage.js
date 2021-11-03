@@ -2,12 +2,12 @@ import React from "react";
 import "./Pages.css";
 import Footer from "../Components/Footer";
 import SiteSectionHeader from "../Components/SiteSectionHeader";
-import PortraitsBackgroundImg from "../Images/Portraits/MainPortraitsImg.jpg";
+import SiteImages from "../Images/SiteImages";
 
 const PortraitsPage = () => {
   return (
     <div>
-      <SiteSectionHeader coverImg={PortraitsBackgroundImg} />
+      <SiteSectionHeader coverImg={SiteImages.portraitsMain} />
       <Footer />
     </div>
   );

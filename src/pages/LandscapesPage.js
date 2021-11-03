@@ -2,12 +2,13 @@ import React from "react";
 import "./Pages.css";
 import Footer from "../Components/Footer";
 import SiteSectionHeader from "../Components/SiteSectionHeader";
-import LandscapesBackgroundImg from "../Images/Landscapes/MainLandscapesImg.jpg";
+import SiteImages from "../Images/SiteImages";
 
 const LandscapesPage = () => {
   return (
     <div>
-      <SiteSectionHeader coverImg={LandscapesBackgroundImg} />
+      <SiteSectionHeader coverImg={SiteImages.landscapesMain} />
+
       <Footer />
     </div>
   );
