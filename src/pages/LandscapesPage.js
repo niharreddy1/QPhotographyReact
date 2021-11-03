@@ -9,6 +9,8 @@ const LandscapesPage = () => {
     <div>
       <SiteSectionHeader coverImg={SiteImages.landscapesMain} />
 
+      <div className="pt-28 pb-12"></div>
+
       <Footer />
     </div>
   );

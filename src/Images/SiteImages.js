@@ -31,6 +31,12 @@ const SiteImages = {
 
   // Portraits Main Photo
   portraitsMain: require("../Images/Portraits/MainPortraitsImg.jpg").default,
+
+  portraitsOne: require("../Images/Portraits/fullsizeoutput_6f2a.jpg").default,
+
+  portraitsTwo: require("../Images/Portraits/DSC_0356-3.jpeg").default,
+  portraitsThree: require("../Images/Portraits/DSC_0439-2.jpeg").default,
+  portraitsFour: require("../Images/Portraits/DSC_0349-3.jpeg").default,
 };
 
 export default SiteImages;
