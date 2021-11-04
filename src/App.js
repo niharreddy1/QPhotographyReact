@@ -7,7 +7,8 @@ import WildlifePage from "./pages/WildlifePage";
 function App() {
   return (
     <div>
-      <Router basename={process.env.PUBLIC_URL}>
+      {/* basename={process.env.PUBLIC_URL} */}
+      <Router>
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/wildlife" component={WildlifePage} />
