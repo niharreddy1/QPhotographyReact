@@ -59,6 +59,14 @@ const SiteImages = {
   portraitsTwo: require("../Images/Portraits/DSC_0356-3.jpeg").default,
   portraitsThree: require("../Images/Portraits/DSC_0439-2.jpeg").default,
   portraitsFour: require("../Images/Portraits/DSC_0349-3.jpeg").default,
+
+  portraitsFive: require("../Images/Portraits/DSC_0825.jpg").default,
+
+  portraitsSix: require("../Images/Portraits/DSC_0229.jpg").default,
+
+  portraitsSeven: require("../Images/Portraits/DSC_0124.jpg").default,
+  portraitsEight: require("../Images/Portraits/DSC_0126.jpg").default,
+  portraitsNine: require("../Images/Portraits/DSC_0085.jpg").default,
 };
 
 export default SiteImages;
