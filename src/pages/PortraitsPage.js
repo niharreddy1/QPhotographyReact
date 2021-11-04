@@ -49,7 +49,7 @@ const PortraitsPage = () => {
           <img
             src={SiteImages.portraitsSix}
             style={{ height: "75%", width: "75%" }}
-            alt="Graduation"
+            alt="Casual"
             class="shadow-xl rounded"
           />
         </div>
@@ -57,18 +57,98 @@ const PortraitsPage = () => {
         <div class="flex flex-wrap justify-center pt-28 space-x-4">
           <img
             src={SiteImages.portraitsSeven}
-            alt="Graduation"
+            alt="Casual"
             class="shadow-xl rounded w-3/12"
           />
           <img
             src={SiteImages.portraitsEight}
-            alt="Graduation"
+            alt="Casual"
             class="shadow-xl rounded w-3/12"
           />
           <img
             src={SiteImages.portraitsNine}
-            alt="Graduation"
+            alt="Casual"
             class="shadow-xl rounded w-3/12"
+          />
+        </div>
+
+        <div class="flex flex-wrap justify-center pt-28 space-x-10">
+          <img
+            src={SiteImages.portraitsTen}
+            alt="Graduation"
+            class="shadow-xl rounded w-3/12 h-4/6"
+          />
+          <img
+            src={SiteImages.portraitsEleven}
+            alt="Graduation"
+            class="shadow-xl rounded w-5/12 h-4/6"
+          />
+        </div>
+
+        <div class="flex flex-wrap justify-center pt-28 space-x-10">
+          <img
+            style={{ height: "75%", width: "75%" }}
+            src={SiteImages.portraitsTwelve}
+            alt="Lights"
+            class="shadow-xl rounded"
+          />
+        </div>
+
+        <div class="flex flex-wrap justify-center pt-28 space-x-10">
+          <img
+            src={SiteImages.portraitsThirteen}
+            alt="Lights"
+            class="shadow-xl rounded w-3/12"
+          />
+          <img
+            src={SiteImages.portraitsFourteen}
+            alt="Lights"
+            class="shadow-xl rounded w-3/12"
+          />
+          <img
+            src={SiteImages.portraitsFifteen}
+            alt="Lights"
+            class="shadow-xl rounded w-3/12"
+          />
+        </div>
+
+        <div class="flex flex-wrap justify-center pt-28 space-x-10">
+          <img
+            style={{ height: "75%", width: "75%" }}
+            src={SiteImages.portraitsSixteen}
+            alt="Lights"
+            class="shadow-xl rounded"
+          />
+        </div>
+
+        <div class="flex flex-wrap justify-center pt-28 space-x-10">
+          <img
+            src={SiteImages.portraitsSeventeen}
+            style={{ height: "75%", width: "75%" }}
+            alt="Sreekar"
+            class="shadow-xl rounded"
+          />
+        </div>
+
+        <div class="flex flex-wrap justify-center pt-28 space-x-32">
+          <img
+            src={SiteImages.portraitsEighteen}
+            alt="Stronger"
+            class="shadow-xl rounded w-3/12"
+          />
+          <img
+            src={SiteImages.portraitsNineteen}
+            alt="Stronger"
+            class="shadow-xl rounded w-4/12"
+          />
+        </div>
+
+        <div class="flex flex-wrap justify-center pt-28 space-x-10">
+          <img
+            src={SiteImages.portraitsTwenty}
+            style={{ height: "75%", width: "75%" }}
+            alt="Stronger"
+            class="shadow-xl rounded"
           />
         </div>
       </div>
